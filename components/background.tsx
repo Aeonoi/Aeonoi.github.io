@@ -9,9 +9,8 @@ interface Props {
 const Background: React.FC<Props> = ({ children, styles }) => {
   return (
     <section
-      className={`relative bg-gradient-to-r from-catppuccin_blue via-catppuccin_lavender to-catppuccin_mauve ${styles}`}
+      className={`relative bg-gradient-to-r from-catppuccin_blue via-catppuccin_lavender to-catppuccin_mauve bg-black opacity-95 ${styles}`}
     >
-      <div className="absolute inset-0 bg-black opacity-30" />
       {children}
     </section>
   );
