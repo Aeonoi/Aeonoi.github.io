@@ -1,4 +1,5 @@
 import About from "@/components/about";
+import Contact from "@/components/contact";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
 import Projects from "@/components/projects";
@@ -13,6 +14,8 @@ const Home: React.FC = () => {
       <About />
       {/* Projects Section */}
       <Projects />
+      {/* Contacts Section */}
+      <Contact />
     </main>
   );
 };
