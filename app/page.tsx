@@ -15,7 +15,7 @@ const Home: React.FC = () => {
       {/* Projects Section */}
       <Projects />
       {/* Contacts Section */}
-      <Contact />
+      {/* <Contact /> */}
     </main>
   );
 };
