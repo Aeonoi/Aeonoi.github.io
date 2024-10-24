@@ -3,8 +3,8 @@ import ProjectCard from "./project-card";
 
 const Projects: React.FC = () => {
   return (
-    <main id="projects">
-      <Background styles="h-full">
+    <main id="projects" className="animate-fadeIn">
+      <Background styles="h-max">
         <div className="grid grid-cols-1 xl:grid-cols-2 justify-items-center items-center gap-10 p-8">
           <ProjectCard
             link="https://github.com/Aeonoi/studyit"
@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
             help users keep notes organized and easily accessible. Users can easily acceess notes via folders and remove notes and folders quickly.
             Notes are saved on every write."
             title="Notts"
-            image="studyit.png"
+            image="notts.png"
           />
           <ProjectCard
             link="https://github.com/wrighs6/leanto"
