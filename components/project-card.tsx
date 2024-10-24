@@ -1,21 +1,19 @@
 import Link from "next/link";
 
 interface Props {
-  children?: React.ReactNode;
   link: string;
   description: string;
   image: string;
   title: string;
 }
 const ProjectCard: React.FC<Props> = ({
-  children,
   link,
   description,
   image,
   title,
 }: Props) => {
   return (
-    <div className="max-w-xl mx-auto p-6 bg-white shadow-md rounded-lg text-black">
+    <div className="min-h-full max-w-full mx-auto p-6 bg-white shadow-md rounded-lg text-black">
       <div className="flex flex-col">
         <div className="flex w-full">
           <img
@@ -25,16 +23,13 @@ const ProjectCard: React.FC<Props> = ({
           />
         </div>
         <div className="p-8">
-          <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
-            {title}
-          </div>
           <Link
             href={link}
-            className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+            className="uppercase tracking-wide text-lg text-indigo-500 block mt-1 leading-tight font-medium hover:underline"
           >
-            <p className="flex">View Source Code</p>
+            {title}
           </Link>
-          <p className="mt-2 text-slate-500">{description}</p>
+          <p className="mt-2 text-sm text-slate-500">{description}</p>
         </div>
       </div>
     </div>
