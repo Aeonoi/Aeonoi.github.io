@@ -32,19 +32,19 @@ const About: React.FC = () => {
               </li>
               <li>
                 <strong>Frontend:</strong> React.js, Preact.js, Electron.js,
-                Next.js, TypeScript, Tailwind CSS
+                Next.js, Tailwind CSS
               </li>
               <li>
                 <strong>Backend:</strong> Node.js, Express, MongoDB, Mongoose
               </li>
               <li>
-                <strong>Other:</strong> ShadCN UI components, JavaFX, Spring
-                Boot
+                <strong>Other:</strong> Material Tailwind, ShadCN UI components,
+                JavaFX, Spring Boot
               </li>
-              <li>
-                <strong>Tools:</strong> Git, GitHub Desktop, tmux, VSCode,
-                IntelliJ, Neovim
-              </li>
+              {/* <li> */}
+              {/*   <strong>Tools:</strong> Git, GitHub Desktop, tmux, VSCode, */}
+              {/*   IntelliJ, Neovim */}
+              {/* </li> */}
             </ul>
           </section>
 
