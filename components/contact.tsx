@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
 
   return (
     <main id="contact">
-      <Background styles="h-screen">
+      <Background styles="h-full">
         <div className="max-w-lg mx-auto p-6 bg-white shadow-md rounded-lg text-black">
           <h2 className="text-2xl font-semibold text-gray-800 mb-6">
             Contact Me
