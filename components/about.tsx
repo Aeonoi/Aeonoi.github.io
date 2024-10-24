@@ -4,9 +4,9 @@ import Background from "./background";
 const About: React.FC = () => {
   return (
     <main id="about" className="animate-fadeIn">
-      <Background styles="h-screen flex items-center">
+      <Background styles="h-max flex items-center">
         {/* <div className="grid grid-cols-2 text-black max-w-4xl mx-auto p-6"> */}
-        <div className="grid grid-cols-2 text-black justify-items-end mx-auto p-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 text-black justify-items-end mx-auto p-10">
           <section className="mb-8 max-w-3xl">
             <h1 className="text-4xl font-bold mb-4">Hi, I'm Dylan</h1>
             <p className="text-lg">
