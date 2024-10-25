@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Resume from "./resume";
 
 const Navbar: React.FC = () => {
   return (
@@ -33,6 +34,13 @@ const Navbar: React.FC = () => {
             {/* > */}
             {/*   Contact */}
             {/* </Link> */}
+            {/* Resume */}
+            <Link
+              href="#resume"
+              className="text-gray-800 hover:text-catppuccin_blue"
+            >
+              Resume
+            </Link>
           </div>
         </div>
       </nav>

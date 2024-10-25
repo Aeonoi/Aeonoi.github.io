@@ -3,6 +3,7 @@ import Contact from "@/components/contact";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
 import Projects from "@/components/projects";
+import Resume from "@/components/resume";
 
 const Home: React.FC = () => {
   return (
@@ -16,6 +17,8 @@ const Home: React.FC = () => {
       <Projects />
       {/* Contacts Section */}
       {/* <Contact /> */}
+      {/* Resume Section */}
+      <Resume />
     </main>
   );
 };
