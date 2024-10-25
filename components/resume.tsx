@@ -6,7 +6,7 @@ const Resume: React.FC = () => {
   return (
     <main id="resume" className="animate-fadeIn scroll-m-14">
       <Background styles="h-screen">
-        <p className="text-5xl items-center text-center text-white m-10">
+        <p className="text-5xl items-center text-center text-white m-20 lg:m-10">
           Resume
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-2">
