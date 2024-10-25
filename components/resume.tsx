@@ -4,8 +4,8 @@ import Background from "./background";
 
 const Resume: React.FC = () => {
   return (
-    <main id="resume" className="animate-fadeIn">
-      <Background styles="h-max w-max">
+    <main id="resume" className="animate-fadeIn ">
+      <Background styles="h-screen scroll-m-14">
         <p className="text-5xl items-center text-center text-black">Resume</p>
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="hidden lg:flex">

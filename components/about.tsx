@@ -50,14 +50,16 @@ const About: React.FC = () => {
 
           <section className="mb-8 max-w-3xl">
             <h2 className="text-3xl font-semibold mb-4">
-              Current Focus & Learning
+              Current Focus & Interests
             </h2>
             <p className="text-lg">
-              Right now, I'm honing my skills in full-stack development,
-              exploring the latest features of Next.js, and working on projects
-              that blend intuitive UI with solid backend functionality. I'm also
-              excited about diving deeper into areas like database optimization
-              and cloud deployment.
+              Right now, I'm honing my skills in full-stack web development,
+              exploring the features of Next.js 14 and React.js, and working on
+              projects that blend intuitive UI with solid backend functionality.
+              I'm also excited about diving deeper into areas like database
+              optimization and cloud deployment. In my free time, I'm learning
+              the Rust language and exploring the different applications that
+              uses Rust.
             </p>
           </section>
           {/* <div className="grid grid-cols-2 justify-center items-center flex-wrap"> */}

@@ -3,10 +3,15 @@ import ProjectCard from "./project-card";
 
 const Projects: React.FC = () => {
   return (
-    <main id="projects" className="animate-fadeIn">
-      <Background styles="h-max">
-        <p className="text-5xl items-center text-center text-black">Projects</p>
-        <div className="grid grid-cols-1 xl:grid-cols-2 justify-items-center items-center gap-10 p-8">
+    <main className="animate-fadeIn">
+      <Background>
+        <p
+          id="projects"
+          className="text-5xl items-center text-center text-black scroll-m-14"
+        >
+          Projects
+        </p>
+        <div className="grid grid-cols-1 xl:grid-cols-2 justify-items-center items-center gap-y-10 ">
           <ProjectCard
             link="https://github.com/Aeonoi/studyit"
             description="This web application is a productivity tool to make focusing enjoyable and more rewardable.

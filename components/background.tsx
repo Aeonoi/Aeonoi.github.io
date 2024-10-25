@@ -1,6 +1,6 @@
 interface Props {
   children: React.ReactNode;
-  styles: string;
+  styles?: string;
 }
 
 /**

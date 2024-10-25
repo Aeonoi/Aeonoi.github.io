@@ -13,7 +13,7 @@ const ProjectCard: React.FC<Props> = ({
   title,
 }: Props) => {
   return (
-    <div className="min-h-full max-w-full mx-auto p-6 bg-white shadow-md rounded-lg text-black">
+    <div className="min-h-full max-w-3xl mx-auto p-3 bg-white shadow-md rounded-lg text-black">
       <div className="flex flex-col">
         <div className="flex w-full">
           <img
