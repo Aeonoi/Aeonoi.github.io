@@ -1,31 +1,22 @@
 import Link from "next/link";
-import Resume from "./resume";
 
 const Navbar: React.FC = () => {
   return (
-    <header className="sticky top-0 w-full h-14 bg-transparent shadow-md z-50 bg-gradient-to-r from-catppuccin_blue via-catppuccin_lavender to-catppuccin_mauve animate-fadeIn">
+    // <header className="sticky top-0 w-full h-14 bg-transparent shadow-md z-50 bg-gradient-to-r from-catppuccin_blue via-catppuccin_lavender to-catppuccin_mauve animate-fadeIn">
+    <header className="sticky top-0 w-full h-14 bg-transparent shadow-md z-50 animate-fadeIn backdrop-blur-md">
       <nav className="container mx-auto px-3 py-3">
-        <div className="flex justify-between items-center">
-          <div className="hidden md:flex text-2xl font-bold text-gray-800">
+        <div className="flex justify-between items-center text-white">
+          <div className="hidden md:flex text-2xl font-bold text-catppuccin_red">
             Dylan Zhou
           </div>
           <div className="flex justify-center items-center space-x-4">
-            <Link
-              href="#hero"
-              className="text-gray-800 hover:text-catppuccin_blue"
-            >
+            <Link href="#hero" className="hover:text-red-500">
               Home
             </Link>
-            <Link
-              href="#about"
-              className="text-gray-800 hover:text-catppuccin_blue"
-            >
+            <Link href="#about" className="hover:text-red-500">
               About
             </Link>
-            <Link
-              href="#projects"
-              className="text-gray-800 hover:text-catppuccin_blue"
-            >
+            <Link href="#projects" className="hover:text-red-500">
               Projects
             </Link>
             {/* <Link */}
@@ -35,10 +26,7 @@ const Navbar: React.FC = () => {
             {/*   Contact */}
             {/* </Link> */}
             {/* Resume */}
-            <Link
-              href="#resume"
-              className="text-gray-800 hover:text-catppuccin_blue"
-            >
+            <Link href="#resume" className="hover:text-red-500">
               Resume
             </Link>
           </div>

@@ -6,7 +6,7 @@ const About: React.FC = () => {
     <main id="about" className="animate-fadeIn">
       <Background styles="h-screen flex items-center">
         {/* <div className="grid grid-cols-2 text-black max-w-4xl mx-auto p-6"> */}
-        <div className="grid grid-cols-1 md:grid-cols-2 text-black justify-items-end mx-auto p-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 text-white justify-items-center mx-auto p-10">
           <section className="mb-8 max-w-3xl">
             <h1 className="text-4xl font-bold mb-4">Hi, I'm Dylan</h1>
             <p className="text-lg">
@@ -28,18 +28,18 @@ const About: React.FC = () => {
             </h2>
             <ul className="list-disc ml-6 text-lg">
               <li>
-                <strong>Languages:</strong> JavaScript, TypeScript, C++, C, Java
+                <strong>Languages:</strong> C++, Java, JavaScript, TypeScript, C
               </li>
               <li>
-                <strong>Frontend:</strong> React.js, Preact.js, Electron.js,
-                Next.js, Tailwind CSS
+                <strong>Frontend:</strong> React.js, Next.js, Preact.js,
+                Electron.js, Tailwind CSS, JavaFX
               </li>
               <li>
-                <strong>Backend:</strong> Node.js, Express, MongoDB, Mongoose
+                <strong>Backend:</strong> Node.js, Express, MongoDB, Mongoose,
+                PostgreSQL, Spring Boot
               </li>
               <li>
-                <strong>Other:</strong> Material Tailwind, ShadCN UI components,
-                JavaFX, Spring Boot
+                <strong>Other:</strong> Material Tailwind, ShadCN UI components
               </li>
               {/* <li> */}
               {/*   <strong>Tools:</strong> Git, GitHub Desktop, tmux, VSCode, */}
@@ -53,13 +53,12 @@ const About: React.FC = () => {
               Current Focus & Interests
             </h2>
             <p className="text-lg">
-              Right now, I'm honing my skills in full-stack web development,
-              exploring the features of Next.js 14 and React.js, and working on
-              projects that blend intuitive UI with solid backend functionality.
-              I'm also excited about diving deeper into areas like database
-              optimization and cloud deployment. In my free time, I'm learning
-              the Rust language and exploring the different applications that
-              uses Rust.
+              I'm honing my skills in full-stack web development, exploring the
+              features of Next.js 14 and React.js, and working on projects that
+              blend intuitive UI with solid backend functionality. I'm also
+              excited about diving deeper into areas like database optimization
+              and cloud deployment. In my free time, I'm learning the Rust
+              language and exploring the different applications that uses Rust.
             </p>
           </section>
           {/* <div className="grid grid-cols-2 justify-center items-center flex-wrap"> */}

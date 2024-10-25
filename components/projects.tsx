@@ -7,7 +7,7 @@ const Projects: React.FC = () => {
       <Background>
         <p
           id="projects"
-          className="text-5xl items-center text-center text-black scroll-m-14"
+          className="text-5xl items-center text-center text-white scroll-m-14 m-10"
         >
           Projects
         </p>

@@ -6,7 +6,9 @@ const Resume: React.FC = () => {
   return (
     <main id="resume" className="animate-fadeIn scroll-m-14">
       <Background styles="h-screen">
-        <p className="text-5xl items-center text-center text-black">Resume</p>
+        <p className="text-5xl items-center text-center text-white m-10">
+          Resume
+        </p>
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="hidden lg:flex">
             <embed
