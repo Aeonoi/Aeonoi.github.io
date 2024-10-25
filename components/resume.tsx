@@ -11,8 +11,8 @@ const Resume: React.FC = () => {
           <div className="hidden lg:flex">
             <embed
               src="Resume.pdf#zoom=100"
-              width={window.innerWidth / 2}
-              height={window.innerHeight * 0.8}
+              width="1000"
+              height="800"
               type="application/pdf"
             />
           </div>
