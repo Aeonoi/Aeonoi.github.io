@@ -30,7 +30,9 @@ const ProjectCard: React.FC<Props> = ({
           />
         </div>
         <div className="p-8">
-          <p className="mt-2 text-sm text-white font-semibold">{description}</p>
+          <p className="mt-2 text-sm text-catppuccin_teal font-semibold">
+            {description}
+          </p>
         </div>
       </div>
     </div>

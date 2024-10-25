@@ -1,7 +1,9 @@
+"use client";
 import Link from "next/link";
 import Background from "./background";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { motion } from "framer-motion";
 
 const Hero: React.FC = () => {
   return (
@@ -13,27 +15,40 @@ const Hero: React.FC = () => {
           </h1>
           <p className="text-lg md:text-xl mb-8">
             I'm a dedicated student passionate about{" "}
-            <span className="font-extrabold">Full Stack Web Development</span>,
-            always seeking new challenges to grow my skills and improve my
+            <span className="font-extrabold text-catppuccin_text">
+              Full Stack Web Development
+            </span>
+            , always seeking new challenges to grow my skills and improve my
             applications.
           </p>
           <div className="flex">
             <div className="flex items-center justify-center space-x-5 mx-10">
-              <Link href={"https://www.linkedin.com/in/dylan-zhou-714110262/"}>
-                <FaLinkedin size={32} />
-              </Link>
-              <Link href={"https://www.github.com/Aeonoi/"}>
-                <FaGithub size={32} />
-              </Link>
-              <Link href={"mailto:dzhou527@gmail.com"}>
-                <SiGmail size={32} />
-              </Link>
-              {/* <Link */}
-              {/*   href="#contact" */}
-              {/*   className="bg-catppuccin_rosewater text-black font-semibold py-3 px-6 rounded-full hover:bg-catppuccin_flamingo transition duration-300" */}
-              {/* > */}
-              {/*   Contact Me */}
-              {/* </Link> */}
+              <motion.div
+                whileHover={{ scale: 1.3, originX: 0 }}
+                transition={{ stype: "spring", stiffness: 300 }}
+              >
+                <Link
+                  href={"https://www.linkedin.com/in/dylan-zhou-714110262/"}
+                >
+                  <FaLinkedin size={32} />
+                </Link>
+              </motion.div>
+              <motion.div
+                whileHover={{ scale: 1.3, originX: 0 }}
+                transition={{ stype: "spring", stiffness: 300 }}
+              >
+                <Link href={"https://www.github.com/Aeonoi/"}>
+                  <FaGithub size={32} />
+                </Link>
+              </motion.div>
+              <motion.div
+                whileHover={{ scale: 1.3, originX: 0 }}
+                transition={{ stype: "spring", stiffness: 300 }}
+              >
+                <Link href={"mailto:dzhou527@gmail.com"}>
+                  <SiGmail size={32} />
+                </Link>
+              </motion.div>
             </div>
           </div>
         </div>

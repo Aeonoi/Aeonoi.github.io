@@ -10,7 +10,7 @@ const Background: React.FC<Props> = ({ children, styles }) => {
   return (
     <section
       // className={`relative bg-gradient-to-r from-catppuccin_blue via-catppuccin_lavender to-catppuccin_mauve bg-black opacity-95 ${styles}`}
-      className={`relative bg-gray-700  ${styles}`}
+      className={`relative bg-background  ${styles}`}
     >
       {children}
     </section>

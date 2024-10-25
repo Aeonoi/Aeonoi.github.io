@@ -20,6 +20,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        catppuccin_base: "#24273a",
         catppuccin_rosewater: "#f4dbd6",
         catppuccin_flamingo: "#f0c6c6",
         catppuccin_pink: "#f5bde6",
@@ -29,6 +30,9 @@ const config: Config = {
         catppuccin_green: "#a6da95",
         catppuccin_blue: "#8aadf4",
         catppuccin_lavender: "#b7bdf8",
+        catppuccin_sapphire: "#7dc4e4",
+        catppuccin_teal: "#8bd5ca",
+        catppuccin_text: "#cad3f5",
       },
     },
   },
