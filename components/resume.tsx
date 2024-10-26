@@ -9,12 +9,12 @@ const Resume: React.FC = () => {
         <p className="text-5xl items-center text-center text-white m-20 lg:m-10">
           Resume
         </p>
-        <div className="grid grid-cols-1 lg:grid-cols-2">
+        <div className="flex flex-col items-center gap-10">
           <div className="hidden lg:flex">
             <embed
-              src="Resume.pdf#zoom=100"
+              src="Resume.pdf#zoom=90"
               width="1000"
-              height="800"
+              height="700"
               type="application/pdf"
             />
           </div>
