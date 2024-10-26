@@ -3,7 +3,7 @@ import Background from "./background";
 
 const About: React.FC = () => {
   return (
-    <main id="about" className="animate-fadeIn">
+    <main id="about" className="scroll-m-14">
       <Background styles="h-full md:h-screen flex items-center">
         {/* <div className="grid grid-cols-2 text-black max-w-4xl mx-auto p-6"> */}
         <div className="grid grid-cols-1 md:grid-cols-2 text-catppuccin_text p-10 w-full justify-items-center">

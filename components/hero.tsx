@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Hero: React.FC = () => {
   return (
-    <main id="hero" className="animate-fadeIn">
+    <main id="hero" className="">
       <Background styles="h-screen flex items-center justify-center">
         <div className="relative z-10 text-center text-white max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">

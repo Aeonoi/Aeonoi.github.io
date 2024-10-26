@@ -5,7 +5,7 @@ import HoverBox from "./animated_box_hover";
 
 const Navbar: React.FC = () => {
   return (
-    <header className="sticky top-0 w-full h-14 bg-transparent shadow-md z-50 animate-fadeIn backdrop-blur-md">
+    <header className="fixed top-0 w-full h-14 bg-transparent shadow-md z-50 animate-fadeIn backdrop-blur-md">
       <nav className="container mx-auto px-3 py-3">
         <div className="flex justify-between items-center text-white">
           <div className="hidden md:flex text-2xl font-bold text-catppuccin_red">
