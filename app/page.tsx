@@ -1,24 +1,31 @@
 import About from "@/components/about";
-import Contact from "@/components/contact";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
 import Projects from "@/components/projects";
 import Resume from "@/components/resume";
+import Transition from "@/components/transition";
 
 const Home: React.FC = () => {
   return (
-    <main>
+    <main className="">
+      {/* Top Navigation Bar Section */}
       <Navbar />
       {/* Hero Section */}
-      <Hero />
+      <Transition>
+        <Hero />
+      </Transition>
       {/* About Section */}
-      <About />
+      <Transition>
+        <About />
+      </Transition>
       {/* Projects Section */}
-      <Projects />
-      {/* Contacts Section */}
-      {/* <Contact /> */}
+      <Transition>
+        <Projects />
+      </Transition>
       {/* Resume Section */}
-      <Resume />
+      <Transition>
+        <Resume />
+      </Transition>
     </main>
   );
 };

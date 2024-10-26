@@ -3,7 +3,7 @@ import ProjectCard from "./project-card";
 
 const Projects: React.FC = () => {
   return (
-    <main className="animate-fadeIn">
+    <main className="scroll-m-14">
       <Background>
         <p
           id="projects"

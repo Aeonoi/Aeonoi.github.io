@@ -4,7 +4,7 @@ import Background from "./background";
 
 const Resume: React.FC = () => {
   return (
-    <main id="resume" className="animate-fadeIn scroll-m-14">
+    <main id="resume" className="scroll-m-14">
       <Background styles="h-screen">
         <p className="text-5xl items-center text-center text-white m-20 lg:m-10">
           Resume
