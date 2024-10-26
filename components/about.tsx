@@ -6,8 +6,8 @@ const About: React.FC = () => {
     <main id="about" className="animate-fadeIn">
       <Background styles="h-full md:h-screen flex items-center">
         {/* <div className="grid grid-cols-2 text-black max-w-4xl mx-auto p-6"> */}
-        <div className="grid grid-cols-1 md:grid-cols-2 text-catppuccin_text justify-items-center mx-auto p-10">
-          <section className="mb-8 max-w-3xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 text-catppuccin_text p-10 w-full justify-items-center">
+          <section className="mb-8 max-w-xl">
             <h1 className="text-4xl font-bold mb-4">Hi, I'm Dylan</h1>
             <p className="text-lg text-catppuccin_teal">
               I'm a junior Computer Science major studying at{" "}
@@ -29,7 +29,7 @@ const About: React.FC = () => {
             </p>
           </section>
 
-          <section className="mb-8 max-w-3xl">
+          <section className="mb-8 max-w-xl">
             <h2 className="text-3xl font-semibold mb-4">
               Skills & Technologies
             </h2>
@@ -57,7 +57,7 @@ const About: React.FC = () => {
             </ul>
           </section>
 
-          <section className="mb-8 max-w-3xl">
+          <section className="mb-8 max-w-xl">
             <h2 className="text-3xl font-semibold mb-4">
               Current Focus & Interests
             </h2>
@@ -74,40 +74,6 @@ const About: React.FC = () => {
               applications that uses Rust.
             </p>
           </section>
-          {/* <div className="grid grid-cols-2 justify-center items-center flex-wrap"> */}
-          {/*   <div className="flex flex-col gap-5"> */}
-          {/*     <div className="min-h-full max-w-full mx-auto p-6 bg-white shadow-md rounded-lg text-black"> */}
-          {/*       <h2 className="text-2xl font-semibold mb-3">Hi, I'm Dylan</h2> */}
-          {/*       <p className="text-base"> */}
-          {/*         I'm a junior Computer Science major studying at Rensselaer */}
-          {/*         Polytechnic Institute with a passion for full-stack web */}
-          {/*         development. Driven by curiosity, I thrive on exploring new */}
-          {/*         technologies and pushing myself to continuously learn and */}
-          {/*         grow. Whether I'm building dynamic web applications or diving */}
-          {/*         into a new coding challenge, I'm always seeking opportunities */}
-          {/*         to expand my skill set and improve. My goal is to create */}
-          {/*         impactful and intuitive digital solutions while staying at the */}
-          {/*         forefront of innovation in the tech world. */}
-          {/*       </p> */}
-          {/*     </div> */}
-          {/*     <div className="min-h-full max-w-full mx-auto p-6 bg-white shadow-md rounded-lg text-black"> */}
-          {/*       <h2 className="text-2xl font-semibold mb-3">Education</h2> */}
-          {/*       <p>GPA: 3.62</p> */}
-          {/*       <p>Major: Computer Science</p> */}
-          {/*       <p>Expected Graduation: May 2026</p> */}
-          {/*       <p>Honors: Deans List</p> */}
-          {/*     </div> */}
-          {/*   </div> */}
-          {/*   <div className="min-h-full max-w-full mx-auto p-6 bg-white shadow-md rounded-lg text-black"> */}
-          {/*     <h2 className="text-2xl font-semibold mb-3">Skills</h2> */}
-          {/*     <div className="flex"> */}
-          {/*       <IoLogoJavascript size={32} /> */}
-          {/*       <SiTypescript size={32} /> */}
-          {/*       <TbBrandCpp size={32} /> */}
-          {/*       <FaJava size={32} /> */}
-          {/*     </div> */}
-          {/*   </div> */}
-          {/* </div> */}
         </div>
       </Background>
     </main>

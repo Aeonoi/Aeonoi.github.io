@@ -25,14 +25,14 @@ const Projects: React.FC = () => {
           <ProjectCard
             link="https://github.com/Aeonoi/notts"
             description="This desktop application is a user friendly markdown note-taking application with support for folder organization to 
-            help users keep notes organized and easily accessible. Users can easily acceess notes via folders and remove notes and folders quickly.
+            help users keep notes organized and easily accessible. Users can easily access notes via folders and remove notes and folders quickly.
             Notes are saved on every write."
             title="Notts"
             image="notts.png"
           />
           <ProjectCard
             link="https://github.com/wrighs6/leanto"
-            description="leanto is a simple task management application designed to simplify the process of being on multiple teams.
+            description="Leanto is a simple task management application designed to simplify the process of being on multiple teams.
             It is common to be a part of multiple different projects.
             leanto aims to provide an interface to display the tasks from each projects while also providing an interface to interact with additional project specific data and controls.
             This application is aimed towards students and professionals alike."
