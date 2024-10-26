@@ -19,7 +19,7 @@ const ProjectCard: React.FC<Props> = ({
 
   // Small delay to allow hover-out before hiding the large image
   const handleMouseLeave = () => {
-    setTimeout(() => setIsHovered(false), 200); // Adjust delay as needed
+    setTimeout(() => setIsHovered(false), 200);
   };
 
   return (
