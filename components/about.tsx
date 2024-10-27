@@ -23,7 +23,7 @@ const About: React.FC = () => {
               pushing myself to continuously learn and grow. Whether I'm
               building dynamic web applications or diving into a new coding
               challenge, I'm always seeking opportunities to expand my skill set
-              and improve. My goal is to create impactful and intuitive digital
+              and improve. My goal is to create impactful and intuitive
               solutions while staying at the forefront of innovation in the tech
               world.
             </p>
@@ -44,14 +44,14 @@ const About: React.FC = () => {
               </li>
               <li>
                 <strong className="text-catppuccin_red">Backend:</strong>{" "}
-                Node.js, Express, MongoDB, Mongoose, PostgreSQL, Spring Boot
+                Node.js, Express.js, MongoDB, Mongoose, PostgreSQL, Spring Boot
               </li>
               <li>
                 <strong className="text-catppuccin_red">Other:</strong> Material
-                Tailwind, ShadCN UI components
+                Tailwind, ShadCN UI
               </li>
               {/* <li> */}
-              {/*   <strong>Tools:</strong> Git, GitHub Desktop, tmux, VSCode, */}
+              {/*   <strong>Tools:</strong> Git, GitHub, tmux, VSCode, */}
               {/*   IntelliJ, Neovim */}
               {/* </li> */}
             </ul>
@@ -64,14 +64,13 @@ const About: React.FC = () => {
             <p className="text-lg text-catppuccin_teal">
               I'm honing my skills in full-stack web development, exploring the
               features of{" "}
-              <span className="text-catppuccin_red">
-                Next.js 14 and React.js
-              </span>
-              , and working on projects that blend intuitive UI with solid
-              backend functionality. I'm also excited about diving deeper into
-              areas like database optimization and cloud deployment. In my free
-              time, I'm learning the Rust language and exploring the different
-              applications that uses Rust.
+              <span className="text-catppuccin_red">Next.js 14</span> and{" "}
+              <span className="text-catppuccin_red">React.js</span>, and working
+              on projects that blend intuitive UI with solid backend
+              functionality. I'm also excited about diving deeper into areas
+              like database optimization and cloud deployment. In my free time,
+              I’m exploring the Rust programming language and its diverse
+              applications.
             </p>
           </section>
         </div>
