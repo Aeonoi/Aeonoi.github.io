@@ -33,16 +33,16 @@ const ProjectCard: React.FC<Props> = ({
       </Link>
       <div className="flex flex-col">
         <div className="flex w-full">
-          <motion.div
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={handleMouseLeave}
-          >
-            <img
-              className="aspect-auto object-cover max-h-full rounded-lg block"
-              src={image}
-              alt={title}
-            />
-          </motion.div>
+          {/* <motion.div */}
+          {/*   onMouseEnter={() => setIsHovered(true)} */}
+          {/*   onMouseLeave={handleMouseLeave} */}
+          {/* > */}
+          <img
+            className="aspect-auto object-cover max-h-full rounded-lg block"
+            src={image}
+            alt={title}
+          />
+          {/* </motion.div> */}
         </div>
         <div className="p-8">
           <p className="mt-2 text-sm text-catppuccin_teal font-semibold">
@@ -50,23 +50,23 @@ const ProjectCard: React.FC<Props> = ({
           </p>
         </div>
       </div>
-      {isHovered && (
-        <motion.div
-          className="fixed inset-0 z-100 flex justify-center items-center bg-black bg-opacity-70 pointer-events-none"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-        >
-          <motion.img
-            src={image}
-            alt={title}
-            className="rounded-lg max-w-2xl max-h-1/2 object-cover pointer-events-none"
-            initial={{ scale: 0 }}
-            animate={{ scale: 1.5 }}
-            exit={{ scale: 0 }}
-          />
-        </motion.div>
-      )}
+      {/* {isHovered && ( */}
+      {/*   <motion.div */}
+      {/*     className="fixed inset-0 z-100 flex justify-center items-center bg-black bg-opacity-70 pointer-events-none" */}
+      {/*     initial={{ opacity: 0 }} */}
+      {/*     animate={{ opacity: 1 }} */}
+      {/*     exit={{ opacity: 0 }} */}
+      {/*   > */}
+      {/*     <motion.img */}
+      {/*       src={image} */}
+      {/*       alt={title} */}
+      {/*       className="rounded-lg max-w-2xl max-h-1/2 object-cover pointer-events-none" */}
+      {/*       initial={{ scale: 0 }} */}
+      {/*       animate={{ scale: 1.5 }} */}
+      {/*       exit={{ scale: 0 }} */}
+      {/*     /> */}
+      {/*   </motion.div> */}
+      {/* )} */}
     </div>
   );
 };
