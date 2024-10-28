@@ -49,10 +49,7 @@ jobs:
             exit 1
           fi
       - name: Setup Bun
-        uses: oven-sh/setup-bun@v1.2.2
-        with:
-          bun-version: latest
-          bun-download-url: "https://github.com/oven-sh/bun/releases/latest/download/bun-${{runner.os == 'macOS' && 'darwin' || runner.os}}-${{ runner.arch == 'X64' && 'x64' || 'arm64' }}.zip"
+        uses: oven-sh/setup-bun@v2.0.1
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
