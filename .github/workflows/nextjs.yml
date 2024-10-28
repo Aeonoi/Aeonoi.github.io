@@ -48,11 +48,11 @@ jobs:
             echo "Unable to determine package manager"
             exit 1
           fi
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1.2.2
         with:
-          node-version: "20"
-          cache: ${{ steps.detect-package-manager.outputs.manager }}
+          bun-version: latest
+          bun-download-url: "https://github.com/oven-sh/bun/releases/latest/download/bun-${{runner.os == 'macOS' && 'darwin' || runner.os}}-${{ runner.arch == 'X64' && 'x64' || 'arm64' }}.zip"
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
