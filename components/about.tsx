@@ -44,7 +44,12 @@ const About: React.FC = () => {
               </li>
               <li>
                 <strong className="text-catppuccin_red">Backend:</strong>{" "}
-                Node.js, Express.js, MongoDB, Mongoose, PostgreSQL, Spring Boot
+                Node.js, Express.js, MongoDB, Mongoose ORM, PostgreSQL, Spring
+                Boot
+              </li>
+              <li>
+                <strong className="text-catppuccin_red">Testing:</strong> JUnit
+                5, GDB
               </li>
               <li>
                 <strong className="text-catppuccin_red">Other:</strong> Material
@@ -68,8 +73,10 @@ const About: React.FC = () => {
               <span className="text-catppuccin_red">React.js</span>, and working
               on projects that blend intuitive UI with solid backend
               functionality. I'm also excited about diving deeper into areas
-              like database optimization and cloud deployment. In my free time,
-              I’m exploring the Rust programming language and its diverse
+              like database optimization and cloud deployment. Recently, I've
+              been focusing on implementing user authentication and OAuth to
+              enhance security in my applications. In my free time, I’m
+              exploring the Rust programming language and its diverse
               applications.
             </p>
           </section>
