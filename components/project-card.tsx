@@ -45,7 +45,7 @@ const ProjectCard: React.FC<Props> = ({
           {/* </motion.div> */}
         </div>
         <div className="p-8">
-          <p className="mt-2 text-sm text-catppuccin_teal font-semibold">
+          <p className="mt-2 text-md text-catppuccin_teal font-semibold">
             {description}
           </p>
         </div>
