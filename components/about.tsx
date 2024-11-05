@@ -68,10 +68,9 @@ const About: React.FC = () => {
             </h2>
             <p className="text-lg text-catppuccin_teal">
               I'm honing my skills in full-stack web development, exploring the
-              features of{" "}
-              <span className="text-catppuccin_red">Next.js 14</span> and{" "}
-              <span className="text-catppuccin_red">React.js</span>, and working
-              on projects that blend intuitive UI with solid backend
+              features of <span className="text-catppuccin_red">Next.js</span>{" "}
+              and <span className="text-catppuccin_red">React.js</span>, and
+              working on projects that blend intuitive UI with solid backend
               functionality. I'm also excited about diving deeper into areas
               like database optimization and cloud deployment. Recently, I've
               been focusing on implementing user authentication and OAuth to
