@@ -39,21 +39,20 @@ const About: React.FC = () => {
                 Java, JavaScript, TypeScript, C
               </li>
               <li>
-                <strong className="text-catppuccin_red">Frontend:</strong>{" "}
+                <strong className="text-catppuccin_red">Frontend:</strong>
                 React.js, Next.js, Preact.js, Electron.js, Tailwind CSS, JavaFX
               </li>
               <li>
-                <strong className="text-catppuccin_red">Backend:</strong>{" "}
-                Node.js, Express.js, MongoDB, Mongoose ORM, PostgreSQL, Spring
-                Boot
+                <strong className="text-catppuccin_red">Backend:</strong>
+                Node.js, Express.js, MongoDB, Mongoose ORM, PostgreSQL
               </li>
               <li>
                 <strong className="text-catppuccin_red">Testing:</strong> JUnit
                 5, GDB
               </li>
               <li>
-                <strong className="text-catppuccin_red">Other:</strong> Material
-                Tailwind, ShadCN UI
+                <strong className="text-catppuccin_red">Tools:</strong> Git,
+                GitHub
               </li>
               {/* <li> */}
               {/*   <strong>Tools:</strong> Git, GitHub, tmux, VSCode, */}
