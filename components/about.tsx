@@ -39,11 +39,11 @@ const About: React.FC = () => {
                 Java, JavaScript, TypeScript, C
               </li>
               <li>
-                <strong className="text-catppuccin_red">Frontend:</strong>
+                <strong className="text-catppuccin_red">Frontend: </strong>
                 React.js, Next.js, Preact.js, Electron.js, Tailwind CSS, JavaFX
               </li>
               <li>
-                <strong className="text-catppuccin_red">Backend:</strong>
+                <strong className="text-catppuccin_red">Backend: </strong>
                 Node.js, Express.js, MongoDB, Mongoose ORM, PostgreSQL
               </li>
               <li>
