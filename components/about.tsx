@@ -54,10 +54,10 @@ const About: React.FC = () => {
                 <strong className="text-catppuccin_red">Tools:</strong> Git,
                 GitHub
               </li>
-              {/* <li> */}
-              {/*   <strong>Tools:</strong> Git, GitHub, tmux, VSCode, */}
-              {/*   IntelliJ, Neovim */}
-              {/* </li> */}
+              <li>
+                <strong className="text-catppuccin_red">Cloud:</strong> Docker,
+                Amazon EC2
+              </li>
             </ul>
           </section>
 
@@ -74,8 +74,7 @@ const About: React.FC = () => {
               like database optimization and cloud deployment. Recently, I've
               been focusing on implementing user authentication and OAuth to
               enhance security in my applications. In my free time, I’m
-              exploring the Rust programming language and its diverse
-              applications.
+              exploring the Angular web framework and its diverse applications.
             </p>
           </section>
         </div>
