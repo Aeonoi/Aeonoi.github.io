@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import Link from "next/link";
 
 const Navbar: React.FC = () => {
@@ -35,6 +36,19 @@ const Navbar: React.FC = () => {
             >
               <Link href="#projects" className="hover:text-foreground">
                 Projects
+              </Link>
+            </motion.button>
+          </div>
+          <div>
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <Link
+                className="flex text-center justify-center items-center gap-x-3"
+                href={"mailto:dzhou527@gmail.com"}
+              >
+                Get in touch <FaExternalLinkAlt size={16} />
               </Link>
             </motion.button>
           </div>
