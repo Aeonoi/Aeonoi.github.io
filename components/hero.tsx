@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <Card>
+          <Card className="w-3/5 h-3/5">
             <div className="relative border rounded-xl overflow-hidden">
               <Image
                 src={"/icon.png"}
