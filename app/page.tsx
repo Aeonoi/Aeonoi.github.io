@@ -23,10 +23,6 @@ const Home: React.FC = () => {
         <Transition>
           <Projects />
         </Transition>
-        {/* Resume Section */}
-        <Transition>
-          <Resume />
-        </Transition>
       </div>
     </main>
   );

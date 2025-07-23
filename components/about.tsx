@@ -20,7 +20,7 @@ import { Badge } from "./ui/badge";
 const About: React.FC = () => {
   return (
     <main id="about" className="scroll-m-14">
-      <div className="mb-10">
+      <div className="mb-[10vh]">
         <header className="text-5xl font-bold mb-5">About Me</header>
         <div className="grid grid-cols-2 gap-20">
           {/* About Me  */}

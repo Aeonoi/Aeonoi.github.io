@@ -28,7 +28,7 @@ const ProjectCard: React.FC<Props> = ({
           width={0}
           height={0}
           sizes="100vw"
-          style={{ width: "100%", height: "100%" }} // optional
+          style={{ width: "100%", height: "100%" }}
           className="object-cover transition-transform duration-300 group-hover:scale-105"
         />
       </div>
