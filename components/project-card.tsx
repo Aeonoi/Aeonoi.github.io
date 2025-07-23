@@ -1,73 +1,58 @@
 "use client";
 import Link from "next/link";
-import { motion } from "framer-motion";
-import { useState } from "react";
+import Image from "next/image";
+import { Card, CardDescription, CardTitle, CardContent } from "./ui/card";
+import { Badge } from "./ui/badge";
+import { ExternalLink } from "lucide-react";
 
 interface Props {
   link: string;
   description: string;
   image: string;
   title: string;
+  stack: string[];
 }
 const ProjectCard: React.FC<Props> = ({
   link,
   description,
   image,
   title,
+  stack,
 }: Props) => {
-  const [isHovered, setIsHovered] = useState<boolean>(false);
-
-  // Small delay to allow hover-out before hiding the large image
-  const handleMouseLeave = () => {
-    setTimeout(() => setIsHovered(false), 200);
-  };
-
   return (
-    // <div className="min-h-full max-w-3xl mx-auto p-3 bg-white shadow-md rounded-lg text-black">
-    <div className="min-h-full max-w-3xl mx-auto p-3 text-black">
-      <Link
-        href={link}
-        className="uppercase tracking-wide text-2xl text-catppuccin_mauve block mt-1 leading-tight font-bold hover:underline m-3"
-      >
-        {title}
-      </Link>
-      <div className="flex flex-col">
-        <div className="flex w-full">
-          {/* <motion.div */}
-          {/*   onMouseEnter={() => setIsHovered(true)} */}
-          {/*   onMouseLeave={handleMouseLeave} */}
-          {/* > */}
-          <img
-            className="aspect-auto object-cover max-h-full rounded-lg block"
-            src={image}
-            alt={title}
-          />
-          {/* </motion.div> */}
-        </div>
-        <div className="p-8">
-          <p className="mt-2 text-md text-catppuccin_teal font-semibold">
-            {description}
-          </p>
-        </div>
+    <Card className="overflow-hidden group bg-background border border-[#778f52]">
+      <div className="relative overflow-hidden max-h-[25rem]">
+        <Image
+          src={image}
+          alt={title}
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{ width: "100%", height: "100%" }} // optional
+          className="object-cover transition-transform duration-300 group-hover:scale-105"
+        />
       </div>
-      {/* {isHovered && ( */}
-      {/*   <motion.div */}
-      {/*     className="fixed inset-0 z-100 flex justify-center items-center bg-black bg-opacity-70 pointer-events-none" */}
-      {/*     initial={{ opacity: 0 }} */}
-      {/*     animate={{ opacity: 1 }} */}
-      {/*     exit={{ opacity: 0 }} */}
-      {/*   > */}
-      {/*     <motion.img */}
-      {/*       src={image} */}
-      {/*       alt={title} */}
-      {/*       className="rounded-lg max-w-2xl max-h-1/2 object-cover pointer-events-none" */}
-      {/*       initial={{ scale: 0 }} */}
-      {/*       animate={{ scale: 1.5 }} */}
-      {/*       exit={{ scale: 0 }} */}
-      {/*     /> */}
-      {/*   </motion.div> */}
-      {/* )} */}
-    </div>
+      <CardContent>
+        <div className="m-3 grid grid-rows-3 text-[#d3c6aa]">
+          {/* Title */}
+          <div className="flex font-bold text-2xl justify-between w-full m-2 mt-4">
+            <div>{title}</div>
+            <Link href={link}>
+              <ExternalLink />
+            </Link>
+          </div>
+          {/* Description */}
+          <div className="text-xl">{description}</div>
+          <div className="flex flex-row items-center gap-3">
+            {stack.map((tech) => (
+              <div key={tech} className="flex flex-wrap gap-2">
+                <Badge className="text-[#d3c6aa]">{tech}</Badge>
+              </div>
+            ))}
+          </div>
+        </div>
+      </CardContent>
+    </Card>
   );
 };
 export default ProjectCard;
