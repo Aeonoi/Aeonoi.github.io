@@ -6,7 +6,7 @@ const Resume: React.FC = () => {
   return (
     <main id="resume" className="scroll-m-14">
       <Background styles="h-screen">
-        <p className="text-5xl items-center text-center text-white m-20 lg:m-10">
+        <p className="text-5xl items-center text-center text-foreground m-20 lg:m-10">
           Resume
         </p>
         <div className="flex flex-col items-center gap-10">
@@ -22,7 +22,7 @@ const Resume: React.FC = () => {
             <a href="/Resume.pdf" download="Resume.pdf">
               <button
                 type="button"
-                className="text-2xl bg-catppuccin_red text-white py-2 px-4 rounded-md hover:bg-red-400 transition duration-300"
+                className="text-2xl bg-foreground text-black py-2 px-4 rounded-md hover:bg-red-400 transition duration-300"
               >
                 Download Resume
               </button>
