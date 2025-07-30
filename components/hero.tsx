@@ -8,10 +8,10 @@ import Image from "next/image";
 
 const Hero: React.FC = () => {
   return (
-    <main id="hero">
-      <div className="grid grid-cols-2 gap-[6vw]">
-        <div className="mt-[20vh] relative z-10 text-center text-[#d3c6aa] max-w-3xl h-[40vh]">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+    <main id="hero" className="h-[75vh]">
+      <div className="mt-[10vh] grid grid-cols-2 gap-[6vw] mb-[10vh]">
+        <div className="relative z-10 text-center text-[#d3c6aa] max-w-3xl">
+          <h1 className="mt-[10vh] text-4xl md:text-6xl font-bold mb-6">
             Hi, I'm <span>Dylan</span>
           </h1>
           <p className="text-lg md:text-xl mb-8">
@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <Card className="w-3/5 h-3/5">
+          <Card className="w-3/5">
             <div className="relative border rounded-xl overflow-hidden">
               <Image
                 src={"/icon.png"}
