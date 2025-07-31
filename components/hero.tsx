@@ -9,7 +9,7 @@ import Image from "next/image";
 const Hero: React.FC = () => {
   return (
     <main id="hero" className="h-[75vh]">
-      <div className="mt-[10vh] grid grid-cols-2 gap-[6vw] mb-[10vh]">
+      <div className="mt-[15vh] grid grid-cols-2 gap-[6vw] mb-[10vh]">
         <div className="relative z-10 text-center text-[#d3c6aa] max-w-3xl">
           <h1 className="mt-[10vh] text-4xl md:text-6xl font-bold mb-6">
             Hi, I'm <span>Dylan</span>
