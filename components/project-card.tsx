@@ -21,7 +21,7 @@ const ProjectCard: React.FC<Props> = ({
 }: Props) => {
   return (
     <Card className="overflow-hidden group bg-background border border-[#778f52]">
-      <div className="relative overflow-hidden max-h-[25rem]">
+      <div className="relative overflow-hidden h-[25rem]">
         <Image
           src={image}
           alt={title}
@@ -33,7 +33,7 @@ const ProjectCard: React.FC<Props> = ({
         />
       </div>
       <CardContent>
-        <div className="m-3 grid grid-rows-3 text-[#d3c6aa]">
+        <div className="m-3 grid grid-rows-3 text-[#d3c6aa] h-[37vh]">
           {/* Title */}
           <div className="flex font-bold text-2xl justify-between w-full m-2 mt-4">
             <div>{title}</div>
