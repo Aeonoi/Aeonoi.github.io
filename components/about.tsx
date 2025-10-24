@@ -3,6 +3,7 @@
 import {
   SiTailwindcss,
   SiTypescript,
+  SiJavascript,
   SiNextdotjs,
   SiReact,
   SiC,
@@ -20,13 +21,13 @@ import { Badge } from "./ui/badge";
 const About: React.FC = () => {
   return (
     <main id="about" className="scroll-m-14">
-      <div className="mb-[10vh]">
+      <div className="mb-[15vh]">
         <header className="text-5xl font-bold mb-5">About Me</header>
         <div className="grid grid-cols-2 gap-20">
           {/* About Me  */}
           <div className="grid grid-rows-2 text-2xl gap-5">
             <p>
-              I'm a Senior studying Computer Science at Rensselaer Polytechnic
+              I'm a senior studying Computer Science at Rensselaer Polytechnic
               Institute with a passion for frontend development. I enjoy solving
               complex problems and turning them into simple and intuitive
               designs.
@@ -47,6 +48,9 @@ const About: React.FC = () => {
                 <div className="pt-3 flex flex-wrap w-full gap-2">
                   <Badge className="h-10 text-2xl">
                     <SiTailwindcss />
+                  </Badge>
+                  <Badge className="h-10 text-2xl">
+                    <SiJavascript />
                   </Badge>
                   <Badge className="h-10 text-2xl">
                     <SiTypescript />

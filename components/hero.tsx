@@ -17,8 +17,7 @@ const Hero: React.FC = () => {
           <p className="text-lg md:text-xl mb-8">
             I'm a dedicated student passionate about{" "}
             <span className="font-extrabold">Full Stack Web Development</span>,
-            always seeking new challenges to grow my skills and improve my
-            applications.
+            always seeking new challenges to grow my skills and learn new things.
           </p>
           <div className="flex items-center justify-start space-x-5 mx-10 mt-14">
             <motion.div
